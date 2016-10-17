@@ -19,6 +19,7 @@ public class Main {
         numbers = parser.parseNumbers(reader.readFromFile(file));
         Histogram histogram = new Histogram(numbers);
         histogram.printHistogram();
+        System.out.println("hello number 2");
 
     }
 }
